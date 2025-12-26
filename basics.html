@@ -3,18 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Testing Basics | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn software testing fundamentals including definitions, objectives, and basics.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
+<header class="hero">
   <h1>Testing Basics</h1>
 </header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,58 +24,32 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
+<main class="container">
+
 <section class="card">
   <h2>What is Software Testing?</h2>
   <p>
-    Software Testing is the process of evaluating a software application to
-    identify defects and ensure that it meets the specified requirements.
+    Software testing is the process of evaluating a system or application
+    to ensure it meets business and technical requirements.
   </p>
   <p>
-    The main goal of testing is to ensure quality, reliability, and usability
-    before the product is released to users.
+    The goal is to identify defects, ensure quality, and reduce risk
+    before the product reaches users.
   </p>
-</section>
-
-<section class="card">
-  <h2>Why is Testing Important?</h2>
-  <ul>
-    <li>Identifies defects early</li>
-    <li>Ensures requirements are met</li>
-    <li>Improves software quality</li>
-    <li>Prevents production failures</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Objectives of Testing</h2>
-  <ul>
-    <li>Verify functionality works as expected</li>
-    <li>Validate business requirements</li>
-    <li>Reduce risks</li>
-    <li>Build confidence in the product</li>
-  </ul>
 </section>
 
 <section class="card quiz">
-  <h3>🧠 Quick Quiz</h3>
-  <p>What is the main goal of software testing?</p>
-
-  <button onclick="checkAnswer(this, false)">To write code</button>
-  <button onclick="checkAnswer(this, true)">To identify defects</button>
-  <button onclick="checkAnswer(this, false)">To deploy software</button>
-
-  <p class="result"></p>
+  <h3>Quick Quiz</h3>
+  <p>Why is testing important?</p>
+  <button onclick="alert('Correct! Testing reduces risk.')">Reduce risk</button>
+  <button onclick="alert('Try again')">Increase cost</button>
 </section>
 
-<div class="page-nav">
-  <a href="./index.html">⬅ Home</a>
-  <a href="./agile.html">Next ➡ Agile & STLC</a>
-</div>
+</main>
 
 <footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
+  Created by Thrishna PT • TestBasics
 </footer>
 
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
