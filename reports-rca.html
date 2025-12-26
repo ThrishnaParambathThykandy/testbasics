@@ -3,18 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Reports & RCA | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn RTM, test reports, risks, RCA concepts and techniques in software testing.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
-  <h1>Reports & RCA</h1>
-</header>
+<header class="hero"><h1>Reports & RCA</h1></header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,102 +22,16 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
-<section class="card">
-  <h2>Requirement Traceability Matrix (RTM)</h2>
-  <p>
-    RTM is a document that maps requirements to corresponding test cases
-    to ensure complete test coverage.
-  </p>
-  <p>
-    It helps identify missing test cases and ensures all requirements
-    are validated.
-  </p>
-</section>
+<main class="container">
 
 <section class="card">
-  <h2>Types of Risks</h2>
-  <ul>
-    <li><strong>Project Risk:</strong> Schedule, cost, resource issues</li>
-    <li><strong>Product Risk:</strong> Quality, performance, security defects</li>
-    <li><strong>Business Risk:</strong> Customer dissatisfaction, compliance issues</li>
-  </ul>
+  <h2>Root Cause Analysis</h2>
+  <p>Techniques: 5 Whys, Fishbone Diagram</p>
 </section>
 
-<section class="card">
-  <h2>Entry Criteria</h2>
-  <p>
-    Entry criteria define the conditions that must be met before
-    testing can begin.
-  </p>
-  <p><strong>Example:</strong> Approved requirements, test environment ready.</p>
-</section>
+</main>
 
-<section class="card">
-  <h2>Exit Criteria</h2>
-  <p>
-    Exit criteria define the conditions that must be met to stop testing.
-  </p>
-  <p><strong>Example:</strong> No critical defects open, test cases executed.</p>
-</section>
+<footer class="footer">Created by Thrishna PT • TestBasics</footer>
 
-<section class="card">
-  <h2>Root Cause Analysis (RCA)</h2>
-  <p>
-    RCA is a technique used to identify the underlying cause of defects
-    so that similar issues do not occur again.
-  </p>
-</section>
-
-<section class="card">
-  <h2>RCA Techniques</h2>
-  <ul>
-    <li><strong>5 Whys:</strong> Asking “Why?” repeatedly to find the root cause</li>
-    <li><strong>Fishbone Diagram:</strong> Categorizing causes (People, Process, Tools)</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Test Metrics</h2>
-  <ul>
-    <li>Test case execution percentage</li>
-    <li>Pass / Fail rate</li>
-    <li>Defect density</li>
-    <li>Defect leakage</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Project Summary Report (Test Closure Report)</h2>
-  <p>
-    A Project Summary Report provides an overview of the testing activities
-    performed during a release.
-  </p>
-  <p>
-    It includes test execution summary, defect status, risks,
-    lessons learned, and sign-off.
-  </p>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 Quick Quiz</h3>
-  <p>Which document ensures all requirements are tested?</p>
-
-  <button onclick="checkAnswer(this, true)">RTM</button>
-  <button onclick="checkAnswer(this, false)">Test Log</button>
-  <button onclick="checkAnswer(this, false)">Bug Report</button>
-
-  <p class="result"></p>
-</section>
-
-<div class="page-nav">
-  <a href="./api-sql.html">⬅ API & SQL</a>
-  <a href="./author.html">Next ➡ About the Author</a>
-</div>
-
-<footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
-</footer>
-
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
