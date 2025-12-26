@@ -1,32 +1,133 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Types of Testing</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="TestBasics - Functional Testing Learning Platform">
-<meta name="author" content="Thrishna Parambath Thykandy">
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <title>Types of Testing | TestBasics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn different types of software testing with clear explanations and examples.">
+  <meta name="author" content="Thrishna Parambath Thykandy">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header class="header small"><h1>Types of Testing</h1></header>
+
+<header class="header small">
+  <h1>Types of Testing</h1>
+</header>
 
 <nav class="nav">
-<a href="./index.html">Home</a>
-<a href="./basics.html">Testing Basics</a>
-<a href="./agile.html">Agile & STLC</a>
-<a href="./test-design.html">Test Design</a>
-<a href="./testing-types.html">Types of Testing</a>
-<a href="./defects.html">Defects</a>
-<a href="./api-sql.html">API & SQL</a>
-<a href="./reports-rca.html">Reports & RCA</a>
-<a href="./author.html">About the Author</a>
+  <a href="./index.html">Home</a>
+  <a href="./basics.html">Testing Basics</a>
+  <a href="./agile.html">Agile & STLC</a>
+  <a href="./test-design.html">Test Design</a>
+  <a href="./testing-types.html">Types of Testing</a>
+  <a href="./defects.html">Defects</a>
+  <a href="./api-sql.html">API & SQL</a>
+  <a href="./reports-rca.html">Reports & RCA</a>
+  <a href="./author.html">About the Author</a>
 </nav>
 
-<section class='card'><h2>System, UAT, Regression</h2></section>
-<div class='page-nav'><a href='./test-design.html'>⬅ Previous</a><a href='./defects.html'>Next ➡</a></div>
-<footer class="footer"><p>Created by <strong>Thrishna PT</strong> • TestBasics</p></footer>
+<section class="card">
+  <h2>Levels of Testing</h2>
+  <p>Testing is performed at different levels during development.</p>
+</section>
+
+<section class="card">
+  <h2>Unit Testing</h2>
+  <p>
+    Unit Testing validates individual components or functions of the code.
+    It is usually performed by developers.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Integration Testing</h2>
+  <p>
+    Integration Testing verifies interactions between integrated modules.
+  </p>
+  <p><strong>Example:</strong> API communicating with the database.</p>
+</section>
+
+<section class="card">
+  <h2>System Testing</h2>
+  <p>
+    System Testing validates the complete, integrated application
+    against requirements.
+  </p>
+</section>
+
+<section class="card">
+  <h2>User Acceptance Testing (UAT)</h2>
+  <p>
+    UAT ensures the system meets business needs and is ready for production.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Regression Testing</h2>
+  <p>
+    Regression Testing ensures that existing functionality still works
+    after changes.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Sanity Testing</h2>
+  <p>
+    Sanity Testing is a quick check to ensure core functionality works
+    after minor changes.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Regression vs Sanity</h2>
+  <ul>
+    <li><strong>Regression:</strong> Detailed, wide coverage</li>
+    <li><strong>Sanity:</strong> Quick, focused check</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Exploratory Testing</h2>
+  <p>
+    Testing without predefined test cases, relying on tester’s knowledge
+    and intuition.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Performance Testing (Basics)</h2>
+  <p>
+    Performance Testing checks system behavior under load and stress.
+  </p>
+</section>
+
+<section class="card">
+  <h2>UI Testing</h2>
+  <p>
+    UI Testing verifies layout, alignment, and usability of the interface.
+  </p>
+</section>
+
+<section class="card quiz">
+  <h3>🧠 Quick Quiz</h3>
+  <p>Which testing ensures old features work after changes?</p>
+
+  <button onclick="checkAnswer(this, true)">Regression Testing</button>
+  <button onclick="checkAnswer(this, false)">Sanity Testing</button>
+  <button onclick="checkAnswer(this, false)">UAT</button>
+
+  <p class="result"></p>
+</section>
+
+<div class="page-nav">
+  <a href="./test-design.html">⬅ Test Design</a>
+  <a href="./defects.html">Next ➡ Defects</a>
+</div>
+
+<footer class="footer">
+  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
+</footer>
+
 <script src="./js/quiz-engine.js"></script>
 </body>
 </html>
