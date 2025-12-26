@@ -1,0 +1,16 @@
+
+body{font-family:Arial,sans-serif;margin:0;background:#f4faf7;color:#333}
+.header{background:linear-gradient(to right,#2f8f6b,#6fbf9f);color:#fff;padding:50px 20px;text-align:center}
+.header.small{padding:30px 20px}
+.nav{background:#eaf5ef;padding:12px;text-align:center}
+.nav a{margin:0 10px;text-decoration:none;color:#2f8f6b;font-weight:600}
+.card{background:#fff;margin:30px auto;padding:25px;border-radius:16px;max-width:900px;box-shadow:0 4px 10px rgba(0,0,0,.05)}
+.card h2{color:#2f8f6b}
+.quiz button{margin:5px;padding:10px 15px;border-radius:10px;border:none;background:#2f8f6b;color:#fff}
+.author{display:flex;gap:20px;align-items:center}
+.author img{width:120px;height:120px;border-radius:50%;object-fit:cover}
+.page-nav{display:flex;justify-content:space-between;margin:40px 20px}
+.page-nav a{padding:12px 22px;background:#2f8f6b;color:#fff;text-decoration:none;border-radius:12px;font-weight:600}
+.page-nav a:hover{background:#256d54}
+.start-btn{display:inline-block;padding:14px 30px;background:#2f8f6b;color:#fff;text-decoration:none;border-radius:14px;font-size:1.1rem;font-weight:600}
+.footer{text-align:center;padding:20px;background:#eaf5ef;color:#2f8f6b}

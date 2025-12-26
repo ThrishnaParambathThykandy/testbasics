@@ -1,0 +1,1 @@
+function checkAnswer(b,c){const r=b.parentElement.querySelector('.result');r.textContent=c?'✅ Correct!':'❌ Try again!';r.style.color=c?'green':'red'}
