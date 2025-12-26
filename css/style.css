@@ -196,3 +196,59 @@ footer {
     height: 140px;
   }
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 14px;
+  background: #e9f6ef;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1f7a4f;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.author-card {
+  padding: 30px;
+}
+
+.author-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.author-photo {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.author-divider {
+  width: 2px;
+  background-color: #1f7a4f;
+  height: 100%;
+  min-height: 200px;
+}
+
+.author-content h2 {
+  margin-top: 0;
+  color: #1f7a4f;
+}
+
+.author-content h4 {
+  margin-top: 4px;
+  color: #444;
+}
+
+.author-content p {
+  font-style: italic;
+  line-height: 1.6;
+}
