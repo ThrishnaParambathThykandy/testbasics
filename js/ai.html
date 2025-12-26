@@ -3,18 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>AI for Testers | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn how AI can be used effectively in software testing.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
-  <h1>AI for Software Testers</h1>
-</header>
+<header class="hero"><h1>AI for Testers</h1></header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,71 +22,27 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
+<main class="container">
+
 <section class="card">
-  <h2>Why AI Matters in Testing</h2>
+  <h2>AI Tools for Testers</h2>
+  <ul>
+    <li>ChatGPT</li>
+    <li>GitHub Copilot</li>
+    <li>Test automation assistants</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Writing Good Prompts</h2>
   <p>
-    Artificial Intelligence is transforming software testing by improving
-    speed, accuracy, and productivity. AI helps testers focus more on
-    critical thinking while automating repetitive tasks.
+    Be clear, specific, provide context, and ask for examples.
   </p>
 </section>
 
-<section class="card">
-  <h2>Common AI Tools Used by Testers</h2>
-  <ul>
-    <li><strong>ChatGPT:</strong> Test cases, scenarios, SQL queries, API tests</li>
-    <li><strong>GitHub Copilot:</strong> Automation and scripting assistance</li>
-    <li><strong>Postman AI:</strong> API test generation and validation</li>
-    <li><strong>Testim / Mabl:</strong> AI-powered automation tools</li>
-  </ul>
-</section>
+</main>
 
-<section class="card">
-  <h2>How to Write a Good AI Prompt</h2>
-  <ul>
-    <li>Clearly state your role (Tester, QA Lead, Automation Engineer)</li>
-    <li>Describe the application context</li>
-    <li>Specify the output you expect</li>
-    <li>Ask for examples</li>
-  </ul>
+<footer class="footer">Created by Thrishna PT • TestBasics</footer>
 
-  <p><strong>Example Prompt:</strong></p>
-  <code>
-    Act as a senior QA engineer. Create functional test cases for a
-    login page with username, password, and forgot password feature.
-  </code>
-</section>
-
-<section class="card">
-  <h2>Important AI Guidelines for Testers</h2>
-  <ul>
-    <li>AI assists testers — it does not replace them</li>
-    <li>Always review and validate AI-generated output</li>
-    <li>Use AI to improve learning and efficiency</li>
-    <li>Combine AI output with domain knowledge</li>
-  </ul>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 Quick Quiz</h3>
-  <p>What is the best use of AI in testing?</p>
-
-  <button onclick="checkAnswer(this, false)">Replace testers</button>
-  <button onclick="checkAnswer(this, true)">Assist testers and improve productivity</button>
-  <button onclick="checkAnswer(this, false)">Avoid test design</button>
-
-  <p class="result"></p>
-</section>
-
-<div class="page-nav">
-  <a href="./reports-rca.html">⬅ Reports & RCA</a>
-  <a href="./author.html">Next ➡ About the Author</a>
-</div>
-
-<footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
-</footer>
-
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
