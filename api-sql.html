@@ -2,19 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>API & SQL Testing | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn API testing fundamentals, HTTP methods, status codes, Swagger, and SQL testing basics.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
+  <title>API & SQL | TestBasics</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
-  <h1>API & SQL Testing</h1>
-</header>
+<header class="hero"><h1>API & SQL</h1></header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,149 +22,21 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
-<!-- ================= API TESTING ================= -->
+<main class="container">
 
 <section class="card">
-  <h2>What is API Testing?</h2>
-  <p>
-    API testing verifies the functionality, reliability, and performance
-    of backend services without using the user interface.
-  </p>
+  <h2>API Testing</h2>
+  <p>Common methods: GET, POST, PUT, DELETE</p>
 </section>
 
 <section class="card">
-  <h2>Why API Testing?</h2>
-  <ul>
-    <li>Faster than UI testing</li>
-    <li>Detects defects early</li>
-    <li>Validates business logic</li>
-    <li>Independent of UI changes</li>
-  </ul>
+  <h2>SQL Basics</h2>
+  <p>SELECT, WHERE, JOIN, GROUP BY</p>
 </section>
 
-<section class="card">
-  <h2>What is Swagger?</h2>
-  <p>
-    Swagger is an API documentation tool that helps testers understand
-    endpoints, request parameters, and response formats.
-  </p>
-</section>
+</main>
 
-<section class="card">
-  <h2>Common HTTP Methods</h2>
-  <ul>
-    <li><strong>GET:</strong> Retrieve data</li>
-    <li><strong>POST:</strong> Create new data</li>
-    <li><strong>PUT:</strong> Update existing data</li>
-    <li><strong>DELETE:</strong> Remove data</li>
-  </ul>
-</section>
+<footer class="footer">Created by Thrishna PT • TestBasics</footer>
 
-<section class="card">
-  <h2>HTTP Status Codes</h2>
-  <ul>
-    <li><strong>200:</strong> OK</li>
-    <li><strong>201:</strong> Created</li>
-    <li><strong>400:</strong> Bad Request</li>
-    <li><strong>401:</strong> Unauthorized</li>
-    <li><strong>404:</strong> Not Found</li>
-    <li><strong>500:</strong> Internal Server Error</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Basic API Test Scenarios</h2>
-  <ul>
-    <li>Validate response status code</li>
-    <li>Validate response body</li>
-    <li>Validate error handling</li>
-    <li>Check response time</li>
-  </ul>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 API Quiz</h3>
-  <p>Which HTTP method is used to create a new resource?</p>
-
-  <button onclick="checkAnswer(this, false)">GET</button>
-  <button onclick="checkAnswer(this, true)">POST</button>
-  <button onclick="checkAnswer(this, false)">DELETE</button>
-
-  <p class="result"></p>
-</section>
-
-<!-- ================= SQL TESTING ================= -->
-
-<section class="card">
-  <h2>What is SQL Testing?</h2>
-  <p>
-    SQL testing validates whether data stored in the database
-    is correct after application actions.
-  </p>
-</section>
-
-<section class="card">
-  <h2>SELECT Statement</h2>
-  <p>
-    Used to retrieve data from a database table.
-  </p>
-  <p><strong>Example:</strong></p>
-  <code>SELECT * FROM users;</code>
-</section>
-
-<section class="card">
-  <h2>WHERE Clause</h2>
-  <p>
-    Filters records based on conditions.
-  </p>
-  <p><strong>Example:</strong></p>
-  <code>SELECT * FROM users WHERE status = 'ACTIVE';</code>
-</section>
-
-<section class="card">
-  <h2>SQL JOINS</h2>
-  <p>
-    Joins combine data from multiple tables.
-  </p>
-  <ul>
-    <li>INNER JOIN</li>
-    <li>LEFT JOIN</li>
-    <li>RIGHT JOIN</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Nested Queries (Subqueries)</h2>
-  <p>
-    A query inside another query.
-  </p>
-  <p><strong>Example:</strong></p>
-  <code>
-    SELECT name FROM users WHERE id IN
-    (SELECT user_id FROM orders);
-  </code>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 SQL Quiz</h3>
-  <p>Which SQL clause is used to filter records?</p>
-
-  <button onclick="checkAnswer(this, false)">SELECT</button>
-  <button onclick="checkAnswer(this, true)">WHERE</button>
-  <button onclick="checkAnswer(this, false)">JOIN</button>
-
-  <p class="result"></p>
-</section>
-
-<div class="page-nav">
-  <a href="./defects.html">⬅ Defects</a>
-  <a href="./reports-rca.html">Next ➡ Reports & RCA</a>
-</div>
-
-<footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
-</footer>
-
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
