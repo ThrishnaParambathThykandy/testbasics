@@ -3,18 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Agile & STLC | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn Agile methodology, STLC, sprint cycle, roles, and ceremonies in software testing.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
+<header class="hero">
   <h1>Agile & STLC</h1>
 </header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,89 +24,31 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
+<main class="container">
+
 <section class="card">
-  <h2>What is Agile?</h2>
+  <h2>Agile Methodology</h2>
   <p>
-    Agile is a software development methodology that focuses on delivering
-    small, incremental pieces of working software frequently.
-  </p>
-  <p>
-    Agile encourages collaboration, flexibility, and quick feedback
-    throughout the development lifecycle.
+    Agile is an iterative approach where software is delivered in small,
+    incremental cycles called sprints.
   </p>
 </section>
 
 <section class="card">
-  <h2>Agile Testing</h2>
-  <p>
-    In Agile, testing is performed continuously alongside development.
-    Testers are involved from the beginning of the sprint.
-  </p>
-  <p>
-    Testing activities are not a separate phase but part of every sprint.
-  </p>
-</section>
-
-<section class="card">
-  <h2>Software Testing Life Cycle (STLC)</h2>
+  <h2>STLC (Software Testing Life Cycle)</h2>
   <ul>
     <li>Requirement Analysis</li>
     <li>Test Planning</li>
-    <li>Test Case Design</li>
-    <li>Test Environment Setup</li>
+    <li>Test Design</li>
     <li>Test Execution</li>
+    <li>Defect Reporting</li>
     <li>Test Closure</li>
   </ul>
 </section>
 
-<section class="card">
-  <h2>Sprint Cycle</h2>
-  <p>
-    A sprint is a fixed time period (usually 2–3 weeks) during which
-    development and testing activities are completed.
-  </p>
-</section>
+</main>
 
-<section class="card">
-  <h2>Sprint Ceremonies</h2>
-  <ul>
-    <li><strong>Sprint Planning:</strong> Decide what work to take</li>
-    <li><strong>Daily Stand-up:</strong> Daily progress sync</li>
-    <li><strong>Sprint Review:</strong> Demo completed work</li>
-    <li><strong>Sprint Retrospective:</strong> Improve the process</li>
-  </ul>
-</section>
+<footer class="footer">Created by Thrishna PT • TestBasics</footer>
 
-<section class="card">
-  <h2>Roles in Agile</h2>
-  <ul>
-    <li>Product Owner</li>
-    <li>Scrum Master</li>
-    <li>Development Team</li>
-    <li>QA / Tester</li>
-  </ul>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 Quick Quiz</h3>
-  <p>What is the main goal of Agile?</p>
-
-  <button onclick="checkAnswer(this, false)">Complete documentation first</button>
-  <button onclick="checkAnswer(this, true)">Deliver working software frequently</button>
-  <button onclick="checkAnswer(this, false)">Avoid changes</button>
-
-  <p class="result"></p>
-</section>
-
-<div class="page-nav">
-  <a href="./basics.html">⬅ Testing Basics</a>
-  <a href="./test-design.html">Next ➡ Test Design</a>
-</div>
-
-<footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
-</footer>
-
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
