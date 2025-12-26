@@ -3,18 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Test Design | TestBasics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn test design concepts and techniques with simple examples.">
-  <meta name="author" content="Thrishna Parambath Thykandy">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header small">
-  <h1>Test Design</h1>
-</header>
+<header class="hero"><h1>Test Design</h1></header>
 
-<nav class="nav">
+<nav class="navbar">
   <a href="./index.html">Home</a>
   <a href="./basics.html">Testing Basics</a>
   <a href="./agile.html">Agile & STLC</a>
@@ -27,99 +22,22 @@
   <a href="./author.html">About the Author</a>
 </nav>
 
-<section class="card">
-  <h2>What is Test Design?</h2>
-  <p>
-    Test Design is the process of creating test cases based on requirements
-    and specifications to ensure complete test coverage.
-  </p>
-  <p>
-    Well-designed test cases help detect defects early and reduce rework.
-  </p>
-</section>
+<main class="container">
 
 <section class="card">
   <h2>Test Design Techniques</h2>
-  <p>Commonly used black-box test design techniques include:</p>
   <ul>
-    <li>Equivalence Class Partitioning</li>
+    <li>Equivalence Partitioning</li>
     <li>Boundary Value Analysis</li>
-    <li>Decision Table Testing</li>
     <li>State Transition Testing</li>
     <li>Error Guessing</li>
     <li>Pairwise Testing</li>
   </ul>
 </section>
 
-<section class="card">
-  <h2>Equivalence Class Partitioning (ECP)</h2>
-  <p>
-    Inputs are divided into valid and invalid groups. One value from each
-    group is tested.
-  </p>
-  <p><strong>Example:</strong> Age field (1–100)</p>
-  <ul>
-    <li>Valid: 1–100</li>
-    <li>Invalid: &lt;1, &gt;100</li>
-  </ul>
-</section>
+</main>
 
-<section class="card">
-  <h2>Boundary Value Analysis (BVA)</h2>
-  <p>
-    Focuses on testing boundary values where defects are most likely.
-  </p>
-  <p><strong>Example:</strong> Age field (1–100)</p>
-  <ul>
-    <li>Test values: 1, 2, 99, 100</li>
-  </ul>
-</section>
+<footer class="footer">Created by Thrishna PT • TestBasics</footer>
 
-<section class="card">
-  <h2>State Transition Testing</h2>
-  <p>
-    Used when application behavior depends on its state.
-  </p>
-  <p><strong>Example:</strong> Login attempts → account lock after 3 failures.
-  </p>
-</section>
-
-<section class="card">
-  <h2>Error Guessing</h2>
-  <p>
-    Based on tester’s experience to guess where defects may occur.
-  </p>
-  <p><strong>Example:</strong> Leaving mandatory fields blank.
-  </p>
-</section>
-
-<section class="card">
-  <h2>Pairwise Testing</h2>
-  <p>
-    Ensures all combinations of input pairs are tested with minimal test cases.
-  </p>
-</section>
-
-<section class="card quiz">
-  <h3>🧠 Quick Quiz</h3>
-  <p>Which technique focuses on boundary values?</p>
-
-  <button onclick="checkAnswer(this, false)">Equivalence Class Partitioning</button>
-  <button onclick="checkAnswer(this, true)">Boundary Value Analysis</button>
-  <button onclick="checkAnswer(this, false)">Error Guessing</button>
-
-  <p class="result"></p>
-</section>
-
-<div class="page-nav">
-  <a href="./agile.html">⬅ Agile & STLC</a>
-  <a href="./testing-types.html">Next ➡ Types of Testing</a>
-</div>
-
-<footer class="footer">
-  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
-</footer>
-
-<script src="./js/quiz-engine.js"></script>
 </body>
 </html>
