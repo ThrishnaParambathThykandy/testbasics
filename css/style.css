@@ -299,4 +299,20 @@ footer {
   line-height: 1.7;
   color: #333;
 }
+/* Navbar links */
+.navbar a {
+  text-decoration: none;   /* ⛔ removes browser underline */
+  color: #1f7a4f;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
 
+/* Hover effect */
+.navbar a:hover {
+  border-bottom: 2px solid #1f7a4f;
+}
+
+/* Active page */
+.navbar a.active {
+  border-bottom: 2px solid #1f7a4f;
+}
