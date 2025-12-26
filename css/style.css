@@ -195,3 +195,22 @@ section {
     margin: 20px 0;
   }
 }
+
+/* Navigation Bar */
+.navbar {
+  background: #e8f5ef;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #2e8b57;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
