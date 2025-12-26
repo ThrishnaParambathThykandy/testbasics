@@ -252,3 +252,51 @@ footer {
   font-style: italic;
   line-height: 1.6;
 }
+
+/* =========================
+   Author Page Styling
+========================= */
+
+.author-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.author-photo img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.author-divider {
+  width: 2px;
+  height: 200px;
+  background: #cfded5;
+  margin: 0 35px;
+}
+
+.author-content h2 {
+  margin: 0;
+  color: #1f7a4f;
+}
+
+.author-content h3 {
+  margin-top: 6px;
+  font-weight: normal;
+  color: #333;
+}
+
+.author-content p {
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
