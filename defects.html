@@ -1,32 +1,109 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Defects</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="TestBasics - Functional Testing Learning Platform">
-<meta name="author" content="Thrishna Parambath Thykandy">
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <title>Defects | TestBasics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn defect concepts, defect lifecycle, severity vs priority, and defect management.">
+  <meta name="author" content="Thrishna Parambath Thykandy">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header class="header small"><h1>Defects</h1></header>
+
+<header class="header small">
+  <h1>Defects</h1>
+</header>
 
 <nav class="nav">
-<a href="./index.html">Home</a>
-<a href="./basics.html">Testing Basics</a>
-<a href="./agile.html">Agile & STLC</a>
-<a href="./test-design.html">Test Design</a>
-<a href="./testing-types.html">Types of Testing</a>
-<a href="./defects.html">Defects</a>
-<a href="./api-sql.html">API & SQL</a>
-<a href="./reports-rca.html">Reports & RCA</a>
-<a href="./author.html">About the Author</a>
+  <a href="./index.html">Home</a>
+  <a href="./basics.html">Testing Basics</a>
+  <a href="./agile.html">Agile & STLC</a>
+  <a href="./test-design.html">Test Design</a>
+  <a href="./testing-types.html">Types of Testing</a>
+  <a href="./defects.html">Defects</a>
+  <a href="./api-sql.html">API & SQL</a>
+  <a href="./reports-rca.html">Reports & RCA</a>
+  <a href="./author.html">About the Author</a>
 </nav>
 
-<section class='card'><h2>Bug Life Cycle</h2></section>
-<div class='page-nav'><a href='./testing-types.html'>⬅ Previous</a><a href='./api-sql.html'>Next ➡</a></div>
-<footer class="footer"><p>Created by <strong>Thrishna PT</strong> • TestBasics</p></footer>
+<section class="card">
+  <h2>Error vs Bug vs Defect vs Failure</h2>
+  <ul>
+    <li><strong>Error:</strong> Human mistake during coding or design</li>
+    <li><strong>Bug:</strong> Coding issue found by developers</li>
+    <li><strong>Defect:</strong> Deviation from expected behavior found during testing</li>
+    <li><strong>Failure:</strong> Application crash or incorrect behavior in production</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Defect Life Cycle</h2>
+  <ol>
+    <li>New</li>
+    <li>Assigned</li>
+    <li>Open</li>
+    <li>Fixed</li>
+    <li>Retest</li>
+    <li>Verified</li>
+    <li>Closed</li>
+    <li>Rejected / Deferred / Duplicate</li>
+  </ol>
+</section>
+
+<section class="card">
+  <h2>Defect Management</h2>
+  <p>
+    Defect management is the process of identifying, logging, tracking,
+    prioritizing, and closing defects effectively.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Defect Triage</h2>
+  <p>
+    Defect triage is a meeting where defects are reviewed and prioritized
+    based on severity, priority, and business impact.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Severity vs Priority</h2>
+  <ul>
+    <li><strong>Severity:</strong> Impact of defect on the system</li>
+    <li><strong>Priority:</strong> Urgency of fixing the defect</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Severity & Priority Combinations</h2>
+  <ul>
+    <li><strong>High Priority, High Severity:</strong> App crash on login</li>
+    <li><strong>High Priority, Low Severity:</strong> Spelling mistake on homepage</li>
+    <li><strong>Low Priority, High Severity:</strong> Rare crash in edge scenario</li>
+    <li><strong>Low Priority, Low Severity:</strong> UI alignment issue</li>
+  </ul>
+</section>
+
+<section class="card quiz">
+  <h3>🧠 Quick Quiz</h3>
+  <p>What does severity indicate?</p>
+
+  <button onclick="checkAnswer(this, true)">Impact on the system</button>
+  <button onclick="checkAnswer(this, false)">Urgency to fix</button>
+  <button onclick="checkAnswer(this, false)">Developer effort</button>
+
+  <p class="result"></p>
+</section>
+
+<div class="page-nav">
+  <a href="./testing-types.html">⬅ Types of Testing</a>
+  <a href="./api-sql.html">Next ➡ API & SQL</a>
+</div>
+
+<footer class="footer">
+  <p>Created by <strong>Thrishna PT</strong> • TestBasics</p>
+</footer>
+
 <script src="./js/quiz-engine.js"></script>
 </body>
 </html>
